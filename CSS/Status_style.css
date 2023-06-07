@@ -1,0 +1,159 @@
+/*navigation bar*/
+nav {
+    background-color: rgba(128, 125, 121, 0.863);
+    text-align: right;
+   /* margin-top: -5px;*/
+   /* height: 65px;*/
+    font-size: 17px;
+}
+.logoimg {
+    /* to make logo in left*/
+    float: left;
+    padding-left: 50px;
+    margin-top: 10px;
+    /* color: rgb(177, 222, 252); */
+    color: #8ad1dc;
+    font-size: 17px;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 55px;
+    height: 55px;
+}
+
+.navbar {
+    padding-right: 70px;
+   /* padding-top: 10px;*/
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.432);
+
+}
+
+/*body*/
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: rgb(224, 232, 240);
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*
+form {
+    max-width: 500px;
+    border: none;
+}
+*/
+input {
+    border: black 1px solid;
+    font-size: 15px;
+    margin: 10px;
+    outline: 0;
+    padding: 10px 15px;
+    width: 50%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #8ec4cc;
+    color: black;
+    margin-bottom: 15px;
+}
+
+input:hover {
+    background-color: rgb(224, 232, 240);
+}
+
+:focus {
+    background-color: rgb(224, 232, 240);
+}
+
+label {
+    font-size: large;
+}
+
+.submit {
+    padding: 10px;
+    color: black;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(129, 179, 194);
+    width: 30%;
+    border: 1px solid;
+    border-width: 1px 1px 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+table {
+    margin: auto;
+    height: 40%;
+    width: 70%;
+}
+
+table td {
+    padding: 1px;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid rgb(173, 205, 218);
+}
+table thead td,.num {
+    padding: 10px;
+    background-color: #8ec4cc;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-color: #457c85;
+}
+
+.num {
+    padding: 5px;
+}
+/*footer*/
+footer {
+    background-color: rgba(128, 125, 121, 0.863);
+    color: white;
+    height: 98px;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.copy {
+    margin-top: -17px;
+   /* padding-left: 250px;*/
+   text-align: center;
+}
+
+.in {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+
+}
+
+.infor{
+    text-align: center;
+
+}

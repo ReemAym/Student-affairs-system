@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sutdent's Department Assignment</title>
+    <meta name="description" content="This Is Student's Department Assignment Page" />
+    <link rel="stylesheet" href="../CSS/Department_style.css" />
+    </head>
+    
+    <body>
+        <nav>
+            <div class="logoimg">
+                <img class="logo" src="../Img/FB_IMG.png" alt="FCI Logo">
+                FCI E-Community
+            </div>
+            <div class="navbar">
+                <a href="Student Affairs.html">Home page</a>
+                <a href="Add Student.html">Add</a>
+                <a href="Edit Student Data.html">Edit</a>
+                <a href="Search.html">Search</a>
+                <a href="Status.html">Status</a>
+                <a href="Department Assignment.html">Department</a>
+                <a href="Log in.html">Log in</a>
+            </div>
+        </nav>
+
+    <h2>Department Assignment</h2>
+    <div id="Error"></div>
+    <form>
+        <div>
+            <label>Student Id:</label>
+            <input id="id" type="number" name="Student Id" readonly>
+        </div>
+        <br>
+        <div>
+            <label>Student Name:</label>
+            <input id="name" type="text" name="Student name" readonly>
+        </div>
+        <br>
+        <label>Department:</label>
+        <input list="department" placeholder="Select the department" name="department">
+        <datalist id="department">
+            <option>Computer Science (CS)</option>
+            <option>Artificial Intelligence (AI)</option>
+            <option>Information Technology (IT)</option>
+            <option>Information System (IS)</option>
+            <option>Decision Support (DS)</option>
+        </datalist>
+        <br><br>
+        <input class="submit" type="submit">
+    </form>
+    <br><br>
+    <footer>
+        <div class="infor">
+            <p>
+                <a class="in" href="">About Us</a>
+                <a class="in" href="">Privacy Policy</a>
+                <a class="in" href="">Contact Us</a>
+            </p>
+        </div>
+        <div class="copy">
+            Copyright &copy; 2004-2015 Faculty of Computers and Artificial Intelligence 5 Dr&#46; Ahmed Zewail Street&#44;
+            Postal Code&#58; 12613&#44; Orman&#44; Giza&#44; Egypt&#46;
+        </div>
+    </footer>
+    <script src="../JS/Department_javaScript.js"></script>
+</body>
+
+</html>

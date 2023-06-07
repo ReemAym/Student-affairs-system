@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Edit Student Date</title>
+    <meta name="description" content="This Is Edit Student Date Page" />
+    <link rel="stylesheet" href="../CSS/Edit_style.css" />
+    </head>
+    
+    <body>
+        <nav>
+            <div class="logoimg">
+                <img class="logo" src="../Img/FB_IMG.png" alt="FCI Logo">
+                FCI E-Community
+            </div>
+            <div class="navbar">
+                <a href="Student Affairs.html">Home page</a>
+                <a href="Add Student.html">Add</a>
+                <a href="Edit Student Data.html">Edit</a>
+                <a href="Search.html">Search</a>
+                <a href="Status.html">Status</a>
+                <a href="Department Assignment.html">Department</a>
+                <a href="Log in.html">Log in</a>
+            </div>
+        </nav>
+    <h2>Edit Student information</h2>
+    <div id="Error"></div>
+    <form action="" method="POST">
+        <div>
+            <label for="id">ID:</label>
+            <input id="id" type="number" name="id" placeholder=" Enter your ID ">
+        </div>
+        <br />
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder=" Enter your Name" >
+        </div>
+        <br />
+        <div>
+            <label for="date">Date Of Birth:</label>
+            <input id="date" type="date" name="date">
+        </div>
+        <br />
+        <div>
+            <label for="gpa">GPA:</label>
+            <input id="gpa" type="number" step="0.01" name="gpa" placeholder=" Enter your GPA ">
+        </div>
+        <br />
+        <div>
+            <label class="special">Gender:</label><br/>
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br />
+        <div>
+            <label>Level:</label>
+            <input list="level" name="level" placeholder=" Select your Level ">
+            <datalist id="level">
+                <option>First Level</option>
+                <option>Second Level</option>
+                <option>Third Level</option>
+                <option>Fourth Level</option>
+            </datalist>
+        </div>
+        <br />
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder=" Enter your Email" >
+        </div>
+        <br />
+        <div>
+            <label for="num">Mobile Number:</label>
+            <input id="num" type="text" name="mobile" placeholder=" Enter your Mobile phone ">
+        </div>
+        <br />
+        <div>
+            <label>Department:</label>
+            <input list="department" disabled>
+            <datalist id="department">
+                <option>Computer Science (CS)</option>
+                <option>Artificial Intelligence (AI)</option>
+                <option>Information Technology (IT)</option>
+                <option>Information System (IS)</option>
+                <option>Decision Support (DS)</option>
+            </datalist>
+        </div>
+        <br />
+        <div>
+            <label class="special">Status:</label> <br>
+            <input id="active" type="radio" name="status" value="active">
+            <label for="active">Active</label>
+            <input id="inactive" type="radio" name="status" value="inactive">
+            <label for="inactive">Inactive</label>
+        </div>
+        <br />
+        <input class="submit" type="submit" value="Update" />
+        <input class="submit" id="del" type="submit" value="Delete"/>
+    </form>
+    <br />
+    <footer>
+        <div class="infor">
+            <p>
+                <a class="in" href="">About Us</a>
+                <a class="in" href="">Privacy Policy</a>
+                <a class="in" href="">Contact Us</a>
+            </p>
+        </div>
+        <div class="copy">
+            Copyright &copy; 2004-2015 Faculty of Computers and Artificial Intelligence 5 Dr&#46; Ahmed Zewail Street&#44;
+            Postal Code&#58; 12613&#44; Orman&#44; Giza&#44; Egypt&#46;
+        </div>
+    </footer>
+    <script src="../JS/Edit_javaScript.js"></script>
+    </body>
+    </html>

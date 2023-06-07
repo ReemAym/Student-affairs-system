@@ -1,0 +1,133 @@
+/*navigation bar*/
+nav {
+    background-color: rgba(128, 125, 121, 0.863);
+    text-align: right;
+   /* margin-top: -5px;*/
+   /* height: 65px;*/
+    font-size: 17px;
+    right: 0;
+    left: 0;
+}
+
+.logoimg {
+    /* to make logo in left*/
+    float: left;
+    padding-left: 50px;
+    margin-top: 10px;
+    /* color: rgb(177, 222, 252); */
+    color: #8ad1dc;
+    font-size: 17px;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 55px;
+    height: 55px;
+}
+
+.navbar {
+    padding-right: 70px;
+   /* padding-top: 10px;*/
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.432);
+    
+}
+
+/*body*/
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: rgb(224, 232, 240);
+}
+
+.pic 
+{
+    padding-left: 950px;
+    margin-bottom: -50px;
+    width: 350px;
+    height: 350px;
+}
+
+.welcome
+{
+    outline-style: ridge;
+    outline-color: black;
+    outline-width:3px;
+    outline-offset: -15px;
+    margin-top: 25px;
+}
+
+.welcome h1
+{
+    padding-left: 500px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.welcome h2
+{
+    padding-left: 485px;
+    margin-left: 20px;
+    margin-top: -5px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.welcome #p2 
+{
+    padding-left: 50px;
+    margin-left: 20px;
+    margin-top: -270px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.welcome ul 
+{
+    padding-left: 100px;
+    margin-left: 35px;
+    font-size: 25px;
+}
+
+/*footer*/
+footer {
+    background-color: rgba(128, 125, 121, 0.863);
+    color: white;
+    height: 98px;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.copy {
+    margin-top: -17px;
+   /* padding-left: 250px;*/
+   text-align: center;
+}
+
+.in {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+
+}
+
+.infor{
+    text-align: center;
+
+}

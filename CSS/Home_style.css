@@ -1,0 +1,70 @@
+body {
+    background-image: url("../Img/HomePage.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-style: italic;
+}
+
+button {
+    background-color: rgba(133, 108, 78, 0.863);
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    margin-left: 7%;
+    padding: 15px;
+
+}
+
+button:hover {
+    background-color: rgba(150, 146, 141, 0.863);
+}
+
+footer {
+    background-color: rgba(133, 108, 78, 0.959);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 90px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    padding-bottom: 25px;
+    display: inline-block;
+
+}
+
+a:hover {
+    background-color: rgba(160, 157, 153, 0.863);
+
+
+}
+
+.copy {
+    margin-top: -22px;
+    padding-left: 300px;
+}
+
+.infor {
+    margin-top: -100px;
+}
+
+.in {
+    padding-left: 310px;
+}
+
+.logo {
+    padding-left: 100px;
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Search</title>
+    <meta name="description" content="This Is Search Student Page" />
+    <link rel="stylesheet" href="../CSS/Search_style.css"/>
+</head>
+<body>
+    <nav>
+        <div class="logoimg">
+            <img class="logo" src="../Img/FB_IMG.png" alt="FCI Logo">
+            FCI E-Community
+        </div>
+        <div class="navbar">
+            <a href="Student Affairs.html">Home page</a>
+            <a href="Add Student.html">Add</a>
+            <a href="Edit Student Data.html">Edit</a>
+            <a href="Search.html">Search</a>
+            <a href="Status.html">Status</a>
+            <a href="Department Assignment.html">Department</a>
+            <a href="Log in.html">Log in</a>
+        </div>
+    </nav>
+
+    <p>
+<h1>Search</h1>
+</p>
+<form action="" method="POST">
+    <div id="content">
+        <label for="sname">Search Name: </label>
+        <input SearchName="sname" type="search" placeholder="type name to search for it" name="sname" value="Osama">
+        <br><br>
+    </div>
+
+    <input class="submit" type="submit" value="Enter">
+    <br><br>
+</form>
+
+<h2>Student(s) data</h2>
+<span id="error"></span>
+<table border="1px">
+    <thead>
+        <tr>
+            <td> </td>
+            <td>Name</td>
+            <td>ID</td>
+            <td>GPA</td>
+            <td>Level</td>
+            <td>Email</td>
+            <td>Phone number</td>
+            <td>Status</td>
+            <td>Department</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="tr1">
+            <td class="num">1</td>
+            <td>Osama Abdallah Ibrahim</td>
+            <td>20210033</td>
+            <td>3.5</td>
+            <td>First Level</td>
+            <td>osamaAbdallah5@gmail.com</td>
+            <td>01122234567</td>
+            <td>Active</td>
+            <td><button id="button1">Assign Department</button></td>
+        </tr>
+        <tr id="tr2">
+            <td class="num">2</td>
+            <td>Osama Amin Mohamed</td>
+            <td>20200050</td>
+            <td>3.7</td>
+            <td>Second Level</td>
+            <td>osamaA33@gmail.com</td>
+            <td>01001122345</td>
+            <td>Active</td>
+            <td><button id="button2">Assign Department</button></td>
+        </tr>
+        <tr id="tr3">
+            <td class="num">3</td>
+            <td>Osama Faried Shafek</td>
+            <td>20200051</td>
+            <td>2.4</td>
+            <td>Second Level</td>
+            <td>osamafaried89@gmail.com</td>
+            <td>01270060080</td>
+            <td>Active</td>
+            <td><button id="button3">Assign Department</button></td>
+        </tr>
+        <tr id="tr4">
+            <td class="num">4</td>
+            <td>Osama Gamil said</td>
+            <td>20190040</td>
+            <td>3.2</td>
+            <td>Third Level</td>
+            <td>osama25@gmail.com</td>
+            <td>01112224467</td>
+            <td>Active</td>
+            <td><button id="button4">Assign Department</button></td>
+        <tr id="tr5">
+            <td class="num">6</td>
+            <td>Osama Sherif Ahmed</td>
+            <td>20180035</td>
+            <td>2.8</td>
+            <td>Fourth Level</td>
+            <td>osama_2000@gmail.com</td>
+            <td>01022337889</td>
+            <td>Active</td>
+            <td><button id="button5">Assign Department</button></td>
+        </tr>
+    </tbody>
+</table>
+<br><br>
+    <footer>
+        <div class="infor">
+            <p>
+                <a class="in" href="">About Us</a>
+                <a class="in" href="">Privacy Policy</a>
+                <a class="in" href="">Contact Us</a>
+            </p>
+        </div>
+        <div class="copy">
+            Copyright &copy; 2004-2015 Faculty of Computers and Artificial Intelligence 5 Dr&#46; Ahmed Zewail Street&#44; Postal Code&#58; 12613&#44; Orman&#44; Giza&#44; Egypt&#46;
+        </div>
+    </footer>
+
+    <script src="../JS/Search_javaScript.js"></script>
+</body>
+
+</html>

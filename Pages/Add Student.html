@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Add Student</title>
+    <meta name="description" content="This Is Add Student Page" />
+    <link rel="stylesheet" href="../CSS/Add_style.css"/>
+</head>
+<body>
+    <nav>
+        <div class="logoimg">
+            <img class="logo" src="../Img/FB_IMG.png" alt="FCI Logo">
+            FCI E-Community
+        </div>
+        <div class="navbar">
+            <a href="Student Affairs.html">Home page</a>
+            <a href="Add Student.html">Add</a>
+            <a href="Edit Student Data.html">Edit</a>
+            <a href="Search.html">Search</a>
+            <a href="Status.html">Status</a>
+            <a href="Department Assignment.html">Department</a>
+            <a href="Log in.html">Log in</a>
+        </div>
+    </nav>
+
+    <h2>Add Student information</h2>
+    <div id="Error"></div>
+    <form action="" method="POST">
+        <div>
+            <label for="id">ID:</label>
+            <input id="id" type="number" placeholder=" Enter your ID " name="id"> <br><br>
+        </div>
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder=" Enter your Name " name="name"> <br><br>
+        </div>
+        <div>
+            <label for="date">Date Of Birth:</label>
+            <input id="date" type="date" name="date" name="date"> <br><br>
+        </div>
+        <div>
+            <label for="gpa">GPA:</label>
+            <input id="gpa" type="number" placeholder=" Enter your GPA " step="0.01" name="gpa"> 
+            <br><br>
+        </div>
+        <div>
+            <label class="special">Gender:</label><br/>
+            <input id="male" type="radio" name="gender" value="male" checked>
+            <label for="male">Male</label>
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label>Level:</label>
+            <input list="level" placeholder=" Select your Level " name="level">
+            <datalist id="level">
+                <option>First Level</option>
+                <option>Second Level</option>
+                <option>Third Level</option>
+                <option>Fourth Level</option>
+            </datalist> <br><br>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder=" Enter your Email " name="email"> <br><br>
+        </div>
+        <div>
+            <label for="num">Mobile Number:</label>
+            <input id="num" type="text" placeholder=" Enter your Mobile phone " name="mobile">
+            <br><br>
+        </div>
+        <div>
+            <label>Department:</label>
+            <input list="department" placeholder="Select the department" name="department">
+            <datalist id="department">
+                <option>Computer Science (CS)</option>
+                <option>Artificial Intelligence (AI)</option>
+                <option>Information Technology (IT)</option>
+                <option>Information System (IS)</option>
+                <option>Decision Support (DS)</option>
+            </datalist> <br><br>
+        </div>
+        <div>
+            <label class="special">Status:</label> <br>
+            <input id="active" type="radio" name="status" value="active" checked>
+            <label for="active">Active</label>
+            <input id="inactive" type="radio" name="status" value="active">
+            <label for="inactive">Inactive</label>
+            <br><br>
+        </div>
+
+        <input class="submit" type="reset" value="Reset" />
+        <input class="submit" type="submit" value="Save" />
+    </form>
+    <br><br>
+    <footer>
+        <div class="infor">
+            <p>
+                <a class="in" href="">About Us</a>
+                <a class="in" href="">Privacy Policy</a>
+                <a class="in" href="">Contact Us</a>
+            </p>
+        </div>
+        <div class="copy">
+            Copyright &copy; 2004-2015 Faculty of Computers and Artificial Intelligence 5 Dr&#46; Ahmed Zewail Street&#44;
+            Postal Code&#58; 12613&#44; Orman&#44; Giza&#44; Egypt&#46;
+        </div>
+    </footer>
+
+    <script src="../JS/Add_javaScript.js"></script>
+</body>
+
+</html>
